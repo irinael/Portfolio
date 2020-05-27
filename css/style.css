@@ -235,7 +235,7 @@ figure {
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
-  margin-bottom: 10em;
+  margin-bottom: 5em;
   clear: both; }
   #colorlib-hero .flexslider {
     border: none;
@@ -941,7 +941,7 @@ body.offcanvas {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #2c98f0;
+    background:rgba(0, 0, 0, 0.7);
     opacity: 0;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
@@ -1000,7 +1000,9 @@ body.offcanvas {
       -webkit-transform: translate3d(0, 15px, 0);
       transform: translate3d(0, 15px, 0); }
       .project .desc span a {
-        color: #000; }
+        color: #fff;
+      font-weight: bold; 
+       }
     @media screen and (max-width: 768px) {
       .project .desc {
         opacity: 1;
