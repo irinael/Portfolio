@@ -48,7 +48,8 @@ function switchLanguage() {
                     document.getElementById("touch").innerHTML = "Contact";
                     document.getElementById("write").innerHTML = "< Parlons-en ! />";
                     document.getElementById("tm").innerHTML = "Tous droits réservés";
-                    document.getElementById("credits").innerHTML = "Images libre de droit des photographes talentueuses.x sur : ";
+                    document.getElementById("credits").innerHTML = "Images libres des photographes talentueuses.x sur : ";
+                    document.getElementById("craft").innerHTML = "Qualité & IC";
                 } else {
                     document.getElementById("pos").innerHTML = "Full Stack Developer";
                     document.getElementById("menu_home").innerHTML = "Home";
@@ -99,6 +100,7 @@ function switchLanguage() {
                     document.getElementById("write").innerHTML = "< Contact />";
                     document.getElementById("tm").innerHTML = "All rights reserved";
                     document.getElementById("credits").innerHTML = "Pictures gratefully taken from : ";
+                    document.getElementById("craft").innerHTML = "Quality & CI";
                    
                 }
                 
