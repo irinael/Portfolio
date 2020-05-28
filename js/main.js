@@ -154,10 +154,10 @@
 			        	scrollTop: $('[data-section="' + section + '"]').offset().top - 55
 			    	}, 500);
 			   }
-
+navbar_aside = $('#navbar');
 		    if ( navbar.is(':visible')) {
-		    	navbar.removeClass('in');
-		    	navbar.attr('aria-expanded', 'false');
+		    	navbar_aside.removeClass('in');
+		    	navbar_aside.attr('aria-expanded', 'false');
 		    	$('.js-colorlib-nav-toggle').removeClass('active');
 		    }
 
