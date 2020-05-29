@@ -1,9 +1,6 @@
 /* Language switch */
 
-#switch-wrapper {
-    display: flex;
-    justify-content: center;
-}
+
 input[type=checkbox]{
 	height: 0;
 	width: 0;
