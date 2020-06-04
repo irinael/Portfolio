@@ -67,7 +67,7 @@ function switchLanguage() {
                     document.getElementById("who").innerHTML = "< Who Am I? />";
                     document.getElementById("past").innerHTML = "A former <strong>lawyer</strong>, now a <strong>software developer</strong>, I discovered thanks to programming, a world full of knowledge, technologies, know-how, good and bad practices, and most importantly, the biggest joy and satisfaction from <strong>learning and getting better every single day</strong>.";
                     document.getElementById("future").innerHTML = "There is still so much to learn, and I hope it always will be !";
-                    document.getElementById("interest").innerHTML = "Particular interest for Quality Code & Software Craftmanship.";
+                    document.getElementById("interest").innerHTML = "Particular interest for Quality Code & Software Crafts.wo.manship.";
                     document.getElementById("about_skills").innerHTML = "About My Skills";
                     document.getElementById("compet").innerHTML = "< What can I do ? />";
                     document.getElementById("lbl_lines").innerHTML = "Lines of code";
