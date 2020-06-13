@@ -51,10 +51,10 @@ label:active:after {
 	width: 35px;
 }
 
-centering
-/* body {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
-} */
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 768px) {
+    .colorlib-heading {
+      
+      letter-spacing: 3px; } }
