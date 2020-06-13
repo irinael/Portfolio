@@ -89,7 +89,7 @@ function switchLanguage() {
                     document.getElementById("about_experience").innerHTML = "About Work";
                     document.getElementById("pro").innerHTML = "< Where did I work ? />";
                     document.getElementById("poste").innerHTML = "Full Stack Developer";
-                    document.getElementById("viveris").innerHTML = "Viveris - Paris - from October 2019";
+                    document.getElementById("viveris").innerHTML = "Viveris - Paris - since October 2019";
                     document.getElementById("viveris_1").innerHTML = "Recruiting Platform by Co-optation for the internal use by Talent Acquisition Specialists";
                     document.getElementById("else").innerHTML = "Something else ?";
                     document.getElementById("personal_p").innerHTML = "< Personal Projects />";
