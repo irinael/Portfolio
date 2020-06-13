@@ -43,6 +43,7 @@ function switchLanguage() {
                     document.getElementById("personal_p").innerHTML = "< Projets personnels />";
                     document.getElementById("explorer").innerHTML = "Moteur de recherche permettant d'obtenir des informations générales sur le pays de votre choix utilisant une <a href=\"https://restcountries.eu/\">API publique";
                     document.getElementById("code").innerHTML = "Voir le code";
+                    document.getElementById("site").innerHTML = "Voir le site";
                     document.getElementById("countain").innerHTML = "Application de bureau pour la gestion du budget personnel";
                     document.getElementById("code_1").innerHTML = "Voir le code";
                     document.getElementById("touch").innerHTML = "Contact";
@@ -95,6 +96,7 @@ function switchLanguage() {
                     document.getElementById("personal_p").innerHTML = "< Personal Projects />";
                     document.getElementById("explorer").innerHTML = "Website displaying useful information about the countries of your choice using a <a href=\"https://restcountries.eu/\">public REST API";
                     document.getElementById("code").innerHTML = "See the code";
+                    document.getElementById("site").innerHTML = "See the website";
                     document.getElementById("countain").innerHTML = "Desktop application designed to manage personal finances";
                     document.getElementById("code_1").innerHTML = "See the code";
                     document.getElementById("touch").innerHTML = "Get in Touch";
