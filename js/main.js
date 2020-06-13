@@ -144,7 +144,7 @@
 	};
 
 	var clickMenu = function() {
-
+		
 		$('.navbar a:not([class="external"])').click(function(event){
 			var section = $(this).data('nav-section'),
 				navbar = $('.navbar');
@@ -154,8 +154,8 @@
 			        	scrollTop: $('[data-section="' + section + '"]').offset().top - 55
 			    	}, 500);
 			   }
-navbar_aside = $('#navbar');
-		    if ( navbar.is(':visible')) {
+			   navbar_aside = $('#navbar');
+		    if ( navbar_aside.is(':visible')) {
 		    	navbar_aside.removeClass('in');
 		    	navbar_aside.attr('aria-expanded', 'false');
 		    	$('.js-colorlib-nav-toggle').removeClass('active');

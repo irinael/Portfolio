@@ -664,12 +664,12 @@ body.offcanvas {
   .services .icon {
     position: absolute;
     top: -20px;
-    left: 0;
-    right: 0;
+    left: 30%;
+    right: 25%;
     width: 100px;
     height: 50px;
     display: table;
-    margin: 0 auto;
+    margin: auto;
     background: #2c98f0; }
     .services .icon:before, .services .icon:after {
       position: absolute;
