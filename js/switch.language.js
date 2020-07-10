@@ -10,7 +10,9 @@ function switchLanguage() {
                     document.getElementById("menu_contact").innerHTML = "Contact";
                     document.getElementById("need").innerHTML = "Un projet ?";
                     document.getElementById("tell").innerHTML = "Besoin d'une développeuse ?";
-                    document.getElementById("mail_me").innerHTML = "Parlons-en ! <i class=\"icon-mail\"></i>";
+                    const talk = document.createElement("H2");
+                    talk.innerText = "Parlons-en !";
+                    document.getElementById("welcome").appendChild(talk);
                     document.getElementById("about_me").innerHTML = "Intro";
                     document.getElementById("who").innerHTML = "< Qui suis-je ? />";
                     document.getElementById("past").innerHTML = "Anciennement <strong>juriste</strong>, désormais <strong>développeuse</strong>, reconvertie et convertie, j'ai découvert, avec la programmation, un puits inépuisable de connaissances, technos, savoir-faire et savoir-être, bonnes et mauvaises pratiques, et, surtout, les immenses joie et satisfaction <strong>d'apprendre et d'évoluer quotidiennement</strong>.";
@@ -63,7 +65,7 @@ function switchLanguage() {
                     document.getElementById("menu_contact").innerHTML = "Contact";
                     document.getElementById("need").innerHTML = "Need a Developer ?";
                     document.getElementById("tell").innerHTML = "Tell me about your project !";
-                    document.getElementById("mail_me").innerHTML = "Contact me <i class=\"icon-mail\"></i>";
+                    document.getElementById("welcome").removeChild(document.getElementById("welcome").lastChild);
                     document.getElementById("about_me").innerHTML = "About me";
                     document.getElementById("who").innerHTML = "< Who Am I? />";
                     document.getElementById("past").innerHTML = "A former <strong>lawyer</strong>, now a <strong>software developer</strong>, I discovered thanks to programming, a world full of knowledge, technologies, know-how, good and bad practices, and most importantly, the biggest joy and satisfaction from <strong>learning and getting better every single day</strong>.";

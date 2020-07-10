@@ -288,6 +288,7 @@
 
 	// Document on load.
 	$(function(){
+		
 		fullHeight();
 		counter();
 		counterWayPoint();
@@ -304,6 +305,7 @@
 		sliderMain();
 		stickyFunction();
 		owlCrouselFeatureSlide();
+		
 	});
 
 
