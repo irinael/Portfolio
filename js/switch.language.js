@@ -38,7 +38,11 @@ function switchLanguage() {
                     document.getElementById("fac_3").innerHTML = "Université Paris IV - Sorbonne";
                     document.getElementById("about_experience").innerHTML = "Expérience";
                     document.getElementById("pro").innerHTML = "< Où ai-je travaillé ? />";
-                    document.getElementById("poste").innerHTML = "Développeuse Full Stack";
+                    
+                    document.getElementById("poste_liksi").innerHTML = "Développeuse d'application";
+                    document.getElementById("liksi").innerHTML = "Liksi - Rennes - depuis septembre 2020";
+                    document.getElementById("liksi_1").innerHTML = "Développement d'une solution d'orchestration des flux coordonnant plusieurs composants métier spécialisés (SAP, CRM et système de caisse) pour le compte d'une entreprise de restauration";
+                    document.getElementById("poste_viveris").innerHTML = "Développeuse Full Stack";
                     document.getElementById("viveris").innerHTML = "Viveris - Paris - depuis octobre 2019";
                     document.getElementById("viveris_1").innerHTML = "Développement d'un outil de recrutement par cooptation à destination de chargé.es de recrutement de l'entreprise";
                     document.getElementById("else").innerHTML = "Mais encore ?";
@@ -91,6 +95,9 @@ function switchLanguage() {
                     document.getElementById("fac_3").innerHTML = "University Paris IV - Sorbonne";
                     document.getElementById("about_experience").innerHTML = "About Work";
                     document.getElementById("pro").innerHTML = "< Where did I work ? />";
+                    document.getElementById("poste_liksi").innerHTML = "Software Developer";
+                    document.getElementById("liksi").innerHTML = "Liksi - Rennes - since September 2020";
+                    document.getElementById("liksi_1").innerHTML = "Workflow Orchestration Platform for a French Restaurant Chain";
                     document.getElementById("poste").innerHTML = "Full Stack Developer";
                     document.getElementById("viveris").innerHTML = "Viveris - Paris - since October 2019";
                     document.getElementById("viveris_1").innerHTML = "Recruiting Platform by Co-optation for the internal use by Talent Acquisition Specialists";
