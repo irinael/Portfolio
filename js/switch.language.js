@@ -98,7 +98,7 @@ function switchLanguage() {
                     document.getElementById("poste_liksi").innerHTML = "Software Developer";
                     document.getElementById("liksi").innerHTML = "Liksi - Rennes - since September 2020";
                     document.getElementById("liksi_1").innerHTML = "Workflow Orchestration Platform for a French Restaurant Chain";
-                    document.getElementById("poste").innerHTML = "Full Stack Developer";
+                    document.getElementById("poste_viveris").innerHTML = "Full Stack Developer";
                     document.getElementById("viveris").innerHTML = "Viveris - Paris - since October 2019";
                     document.getElementById("viveris_1").innerHTML = "Recruiting Platform by Co-optation for the internal use by Talent Acquisition Specialists";
                     document.getElementById("else").innerHTML = "Something else ?";
