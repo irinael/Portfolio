@@ -38,8 +38,7 @@ function switchLanguage() {
                     document.getElementById("fac_3").innerHTML = "Université Paris IV - Sorbonne";
                     document.getElementById("about_experience").innerHTML = "Expérience";
                     document.getElementById("pro").innerHTML = "< Où ai-je travaillé ? />";
-                    
-                    document.getElementById("poste_liksi").innerHTML = "Développeuse d'application";
+                    document.getElementById("poste_liksi").innerHTML = "Développeuse d'applications";
                     document.getElementById("liksi").innerHTML = "Liksi - Rennes - depuis septembre 2020";
                     document.getElementById("liksi_1").innerHTML = "Développement d'une solution d'orchestration des flux coordonnant plusieurs composants métier spécialisés (SAP, CRM et système de caisse) pour le compte d'une entreprise de restauration";
                     document.getElementById("poste_viveris").innerHTML = "Développeuse Full Stack";
